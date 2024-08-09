@@ -1,23 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import GoogleSignIn from './component/GoogleSignIn'
 
-function App() {
+const App: React.FC = () => {
+  const [loginSuccess, setLoginSuccess] = useState(false);
+  const [accessToken, setAccessToken] = useState<string | null>(null);
+
+  const handleLoginSuccess = (token: string) => {
+    setLoginSuccess(true);
+    setAccessToken(token);
+  };
+
+  const handleLogout = () => {
+    setLoginSuccess(false);
+    setAccessToken(null);
+  };
+
+  // Rút gọn Token
+  const shortenToken = (token: string) => {
+    return token.length > 30 ? `${token.substring(0, 30)}...` : token;
+  };
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>LOGIN</h1>
+        {loginSuccess && <p style={{ color: 'green' }}>Signed in successfully!</p>}
+        {accessToken && (
+          <p>
+            Access Token: <strong>{shortenToken(accessToken)}</strong>
+          </p>
+        )}
+        <GoogleSignIn onLoginSuccess={handleLoginSuccess} onLogout={handleLogout} />
       </header>
     </div>
   );
