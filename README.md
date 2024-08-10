@@ -11,9 +11,12 @@ Dự án này cung cấp các đoạn mã để tích hợp các tính năng đ�
 
 **Cách sử dụng**
 **Google Login**: Sử dụng thư viện **@react-oauth/google** để tích hợp chức năng đăng nhập bằng Google.
+
 ***Thêm cấu hình vào index.js hoặc App.js:***
 ![image](https://github.com/user-attachments/assets/3903586c-8b48-4ade-9409-4ed5c7e794b1)
+
 **Facebook Login**: Sử dụng thư viện **react-facebook-login** để tích hợp chức năng đăng nhập bằng Facebook.
+
 ***Ví dụ sử dụng:***
 ![image](https://github.com/user-attachments/assets/3c122c1b-fae5-4fd8-8ac2-d6be842b437a)
 
