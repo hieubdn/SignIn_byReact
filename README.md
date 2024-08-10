@@ -3,13 +3,14 @@
 ## Mô tả dự án - VNM
 
 Dự án này cung cấp các đoạn mã để tích hợp các tính năng đăng nhập qua các nền tảng phổ biến như Google, Facebook, Apple, và nhiều nền tảng khác.
+
 *Mục tiêu là giúp ứng dụng dễ dàng kết nối với người dùng thông qua các phương thức xác thực phổ biến, đảm bảo tính bảo mật và tiện lợi.*
 
 ### Hướng dẫn cài đặt
 Để bắt đầu, bạn cần cài đặt các thư viện sau cho dự án của mình:
 ![image](https://github.com/user-attachments/assets/1db960c7-b5c9-446f-a16f-fd37b31231ac)
 
-**Cách sử dụng**
+### Cách sử dụng
 
 **Google Login**: Sử dụng thư viện **@react-oauth/google** để tích hợp chức năng đăng nhập bằng Google.
 
