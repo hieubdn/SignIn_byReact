@@ -1,6 +1,4 @@
-﻿# SignIn_byReact
-
-## Mô tả dự án - Vietnamese Version
+# Mô tả dự án - Vietnamese Version
 
 Dự án này cung cấp các đoạn mã để tích hợp các tính năng đăng nhập qua các nền tảng phổ biến như Google, Facebook, Apple, và nhiều nền tảng khác.
 
@@ -25,7 +23,7 @@ Dự án này cung cấp các đoạn mã để tích hợp các tính năng đ�
 
 
 
-## Project Description - English Version
+# Project Description - English Version
 
 This project provides code snippets for integrating login features through popular platforms such as Google, Facebook, Apple, and more.
 *The goal is to make it easy for applications to connect with users through widely-used authentication methods, ensuring security and convenience.*
@@ -49,7 +47,7 @@ To get started, install the following libraries for your project:
 ![image](https://github.com/user-attachments/assets/3c122c1b-fae5-4fd8-8ac2-d6be842b437a)
 
 
-## プロジェクトの説明 - Japanese Version (日本語)
+# プロジェクトの説明 - Japanese Version (日本語)
 
 このプロジェクトは、Google、Facebook、Apple などの一般的なプラットフォームを通じてログイン機能を統合するためのコードスニペットを提供します。
 *アプリケーションが広く使用されている認証方法を通じてユーザーと簡単に接続できるようにし、セキュリティと利便性を確保することを目的としています。*
