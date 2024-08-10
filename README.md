@@ -8,11 +8,12 @@ Dự án này cung cấp các đoạn mã để tích hợp các tính năng đ�
 **Hướng dẫn cài đặt**
 Để bắt đầu, bạn cần cài đặt các thư viện sau cho dự án của mình:
 ![image](https://github.com/user-attachments/assets/1db960c7-b5c9-446f-a16f-fd37b31231ac)
+
 **Cách sử dụng**
-1. **Google Login**: Sử dụng thư viện **@react-oauth/google** để tích hợp chức năng đăng nhập bằng Google.
+**Google Login**: Sử dụng thư viện **@react-oauth/google** để tích hợp chức năng đăng nhập bằng Google.
 ***Thêm cấu hình vào index.js hoặc App.js:***
 ![image](https://github.com/user-attachments/assets/3903586c-8b48-4ade-9409-4ed5c7e794b1)
-2. **Facebook Login**: Sử dụng thư viện **react-facebook-login** để tích hợp chức năng đăng nhập bằng Facebook.
+**Facebook Login**: Sử dụng thư viện **react-facebook-login** để tích hợp chức năng đăng nhập bằng Facebook.
 ***Ví dụ sử dụng:***
 ![image](https://github.com/user-attachments/assets/3c122c1b-fae5-4fd8-8ac2-d6be842b437a)
 
@@ -25,11 +26,12 @@ This project provides code snippets for integrating login features through popul
 **Installation Guide**
 To get started, install the following libraries for your project:
 ![image](https://github.com/user-attachments/assets/1db960c7-b5c9-446f-a16f-fd37b31231ac)
+
 **Usage**
-1. **Google Login**: Use the **@react-oauth/google** library to integrate Google login.
+**Google Login**: Use the **@react-oauth/google** library to integrate Google login.
 ***Add the configuration in index.js or App.js:***
 ![image](https://github.com/user-attachments/assets/3903586c-8b48-4ade-9409-4ed5c7e794b1)
-2. **Facebook Login**: Use the **react-facebook-login** library to integrate Facebook login.
+**Facebook Login**: Use the **react-facebook-login** library to integrate Facebook login.
 ***Example usage:***
 ![image](https://github.com/user-attachments/assets/3c122c1b-fae5-4fd8-8ac2-d6be842b437a)
 
