@@ -21,11 +21,8 @@ Dự án này cung cấp các đoạn mã để tích hợp các tính năng đ�
 
 ![image](https://github.com/user-attachments/assets/3c122c1b-fae5-4fd8-8ac2-d6be842b437a)
 
-
-
-
 <br>
-
+<br>
 
 # Project Description - English Version
 
@@ -50,9 +47,8 @@ To get started, install the following libraries for your project:
 
 ![image](https://github.com/user-attachments/assets/3c122c1b-fae5-4fd8-8ac2-d6be842b437a)
 
-
 <br>
-
+<br>
 
 # プロジェクトの説明 - Japanese Version (日本語)
 
