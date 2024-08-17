@@ -14,11 +14,10 @@ app.get('/website/', async (req, res) => {
   console.log('Authorization Code:', code);
 
   try {
-    // Gửi mã xác thực để lấy Access Token
     const params = querystring.stringify({
       app_id: '1269268458224712782',
       app_secret: '4r6K74CL8n7OM9wcGKMG',
-      code: code, // Sử dụng mã xác thực từ URL
+      code: code,
       redirect_uri: 'https://www.fidovn.com/website/',
       grant_type: 'authorization_code',
     });
