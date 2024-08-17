@@ -96,7 +96,7 @@ const Login: React.FC = () => {
 
     const fetchUserInfo = async (token: string) => {
         try {
-            const response = await axios.get('https://graph.zalo.me/v2.0/me', {
+            const response = await axios.get('https://graph.zalo.me/v4.0/me', {
                 params: {
                     fields: 'id,name,picture,phone',
                 },
