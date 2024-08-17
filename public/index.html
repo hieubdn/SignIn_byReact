@@ -39,5 +39,14 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script src="https://sp.zalo.me/plugins/sdk.js"></script>
+    <script>
+      window.onload = function() {
+        if (typeof window.zalo === 'undefined') {
+          console.error('Zalo SDK is not loaded.');
+        }
+      };
+    </script>
+    
   </body>
 </html>
